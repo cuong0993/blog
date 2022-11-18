@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // refer https://vitepress.vuejs.org/config/introduction for details
 export default defineConfig({
+  base: '/blog/',
   lang: 'en-US',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
